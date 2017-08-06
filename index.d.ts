@@ -16,4 +16,4 @@ export type Result = {
  * @param input Text columns to parse
  * @param options
  */
-export default function(input: string, options: Option = {separator: ' '}): Result;
+export default function(input: string, options: Options): Result;
