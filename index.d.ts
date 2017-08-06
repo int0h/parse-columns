@@ -1,9 +1,9 @@
 export type TrnasformerFunction = (element: string, header: string, columnIndex: number, rowIndex: number) => any;
 
 export interface Options {
-    separator: string;
-    headers: string[];
-    transform: TrnasformerFunction;
+    separator?: string;
+    headers?: string[];
+    transform?: TrnasformerFunction;
 }
 
 export type Result = {
