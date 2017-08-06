@@ -98,3 +98,5 @@ module.exports = function (str, opts) {
 
 	return rows;
 };
+
+module.exports.default = module.exports;
